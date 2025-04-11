@@ -1,0 +1,231 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boycott Israeli Products</title>
+    <style>
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+
+      .animate-fadeIn {
+        animation: fadeIn 1s ease-in-out forwards;
+      }
+
+      @keyframes slideDown {
+        0% {
+          transform: translateY(-100%);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+
+      .animate-slideDown {
+        animation: slideDown 0.6s ease-out forwards;
+      }
+
+      .animate-fadeIn {
+        animation: fadeIn 1s ease-in-out forwards;
+      }
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fadeInUp {
+        animation: fadeInUp 1.2s ease-out forwards;
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <!-- Top-line Message -->
+    <div
+      id="top-line"
+      class="w-full bg-yellow-200 text-center py-1 text-sm font-medium sticky top-0 z-50"
+    >
+      Hey there! ⚪ I'm Dev Sherry, your go-to dev! ✍
+    </div>
+
+    <!-- Awareness Banner -->
+    <div
+      id="awarenessBanner"
+      class="w-full bg-red-600 text-center py-3 text-white font-semibold text-lg animate-slideDown"
+    >
+      🚫 Boycott these products and help your Palestinian brothers and sisters!
+      ✊🕊️
+    </div>
+
+    <!-- Navbar -->
+    <nav
+      class="bg-white shadow-md sticky top-0 z-40 transition-all duration-300 border-b border-gray-200 animate-fadeIn opacity-0"
+      id="mainNavbar"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center"
+      >
+        <a
+          href="./index.html"
+          class="text-xl font-extrabold text-gray-800 hover:scale-105 hover:text-yellow-500 transition-all duration-300 transform"
+        >
+          Boycott Awareness
+        </a>
+
+        <ul class="flex space-x-6 text-sm font-medium">
+          <li>
+            <a
+              href="index.html"
+              class="relative text-gray-700 hover:text-yellow-500 transition duration-300 group"
+            >
+              Home
+              <span
+                class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-500 transition-all group-hover:w-full"
+              ></span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#products"
+              class="relative text-gray-700 hover:text-yellow-500 transition duration-300 group"
+            >
+              All Products
+              <span
+                class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-500 transition-all group-hover:w-full"
+              ></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="relative text-center py-28 bg-gradient-to-br from-white via-gray-50 to-yellow-50 overflow-hidden"
+    >
+      <!-- Floating particles background -->
+      <div class="absolute inset-0 z-0">
+        <div
+          class="w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"
+        ></div>
+      </div>
+
+      <div
+        class="relative z-10 max-w-2xl mx-auto px-4 animate-fadeInUp opacity-0"
+      >
+        <h1
+          class="text-4xl md:text-3xl font-extrabold mb-4 text-gray-800 leading-tight"
+        >
+          Boycott Israeli Products ✊🛑
+        </h1>
+        <p class="text-lg text-gray-600 mb-10">
+          Search the brands you're using & make informed choices to support our
+          Palestinian brothers and sisters. 🇵🇸❤️
+        </p>
+
+        <!-- Search Bar with mic icon -->
+        <div class="relative max-w-md mx-auto mb-6">
+          <input
+            id="searchBar"
+            type="text"
+            placeholder="Enter product name..."
+            class="w-full px-5 py-3 border border-gray-300 rounded-xl shadow focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-all duration-300 focus:scale-105 pr-12"
+          />
+          <div
+            class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+          >
+            <svg
+              class="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 1v10m0 0a3 3 0 01-3-3V4a3 3 0 116 0v4a3 3 0 01-3 3zm0 0v5m-6 2h12"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <!-- Glowing CTA Button -->
+        <a
+          href="#products"
+          class="inline-block mt-2 px-6 py-3 bg-yellow-400 text-white font-semibold rounded-full shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-yellow-500 hover:bg-yellow-500"
+        >
+          📜 View Full Boycott List
+        </a>
+      </div>
+
+      <!-- Scroll down arrow -->
+      <!-- <div
+        class="absolute bottom-3 left-1/2 transform -translate-x-1/2 animate-bounce text-yellow-500"
+      >
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+      </div> -->
+    </section>
+
+    <!-- Products List -->
+    <section id="products" class="py-12 px-4 max-w-6xl mx-auto mt-[-10px]">
+      <h2 class="text-2xl font-bold mb-6">All Products</h2>
+
+      <!-- Item Not Found Message -->
+      <div
+        id="notFoundMessage"
+        class="hidden text-red-500 text-xl text-center py-4"
+      >
+        <p>Item Not Found</p>
+      </div>
+
+      <div
+        id="productGrid"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+      >
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+    <script>
+      window.addEventListener("scroll", () => {
+        const topLine = document.getElementById("top-line");
+        if (window.scrollY > 20) topLine.style.display = "none";
+        else topLine.style.display = "block";
+      });
+    </script>
+  </body>
+</html>

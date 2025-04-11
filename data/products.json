@@ -1,0 +1,476 @@
+{
+  "Food & Beverages": [
+    {
+      "id": "b1df0cd4-7193-4d35-a358-bceffca69990",
+      "name": "Pepsi",
+      "company": "PepsiCo",
+      "img": "pepsi.png"
+    },
+    {
+      "id": "42ad5f18-5afa-4950-9e6e-81c3207584ab",
+      "name": "7UP",
+      "company": "PepsiCo",
+      "img": "7up.png"
+    },
+    {
+      "id": "8fe48649-d203-4d6c-a8b2-617ec5964814",
+      "name": "Mountain Dew",
+      "company": "PepsiCo",
+      "img": "mountain_dew.png"
+    },
+    {
+      "id": "16a5e3ed-23fb-4b48-9c90-68175382b3bc",
+      "name": "Tropicana",
+      "company": "PepsiCo",
+      "img": "tropicana.png"
+    },
+    {
+      "id": "faff6c4f-af39-433e-9a05-47fa985b6d1c",
+      "name": "Gatorade",
+      "company": "PepsiCo",
+      "img": "gatorade.png"
+    },
+    {
+      "id": "9d11f1ac-0878-41b5-8064-15c4fc091aaa",
+      "name": "Lay\u2019s",
+      "company": "PepsiCo",
+      "img": "lays.png"
+    },
+    {
+      "id": "fe8c405d-2640-47c1-9c38-e34992cb1ca0",
+      "name": "Doritos",
+      "company": "PepsiCo",
+      "img": "doritos.png"
+    },
+    {
+      "id": "3f94f29a-30d0-4fce-b0c0-4c5357c96916",
+      "name": "Cheetos",
+      "company": "PepsiCo",
+      "img": "cheetos.png"
+    },
+    {
+      "id": "d57dea7e-9367-4e91-b1c7-939f5e2a3740",
+      "name": "Ruffles",
+      "company": "PepsiCo",
+      "img": "ruffles.png"
+    },
+    {
+      "id": "91390f9c-d18b-41af-b533-6453e1d7b9c2",
+      "name": "Quaker",
+      "company": "PepsiCo",
+      "img": "quaker.png"
+    },
+    {
+      "id": "1710d27b-5ec2-43fa-a99a-9e1613b77ffd",
+      "name": "Coca-Cola",
+      "company": "Coca-Cola",
+      "img": "coca-cola.png"
+    },
+    {
+      "id": "ac6715d8-0143-4bb3-beca-c08bcb6611f0",
+      "name": "Sprite",
+      "company": "Coca-Cola",
+      "img": "sprite.png"
+    },
+    {
+      "id": "1528e188-85db-4792-a56c-c09e6ca39017",
+      "name": "Fanta",
+      "company": "Coca-Cola",
+      "img": "fanta.png"
+    },
+    {
+      "id": "5dde86a3-207d-4ad2-b244-b799e295d59c",
+      "name": "Dasani",
+      "company": "Coca-Cola",
+      "img": "dasani.png"
+    },
+    {
+      "id": "eb07d895-4ccb-498c-a043-08e8a8adbecc",
+      "name": "Smartwater",
+      "company": "Coca-Cola",
+      "img": "smartwater.png"
+    },
+    {
+      "id": "cb433d0a-76ca-47e0-89b6-b49bd7d62570",
+      "name": "Fresca",
+      "company": "Coca-Cola",
+      "img": "fresca.png"
+    },
+    {
+      "id": "de5e2fa8-f06a-47cc-8a25-a1f3392d0de4",
+      "name": "Powerade",
+      "company": "Coca-Cola",
+      "img": "powerade.png"
+    },
+    {
+      "id": "f3c19e56-b561-4297-8705-93cfe474b7ee",
+      "name": "Minute Maid",
+      "company": "Coca-Cola",
+      "img": "minute_maid.png"
+    },
+    {
+      "id": "cb4ca3b3-b229-4377-b0e1-228820120942",
+      "name": "Simply",
+      "company": "Coca-Cola",
+      "img": "simply.png"
+    },
+    {
+      "id": "62b8ffa4-3710-4af3-808d-b56295ced843",
+      "name": "Vitaminwater",
+      "company": "Coca-Cola",
+      "img": "vitaminwater.png"
+    },
+    {
+      "id": "5dae1a64-9562-40cd-871c-48205a650a9d",
+      "name": "Nescaf\u00e9",
+      "company": "Nestl\u00e9",
+      "img": "nescafe.png"
+    },
+    {
+      "id": "f84a8574-e708-4485-a8d7-6668dd915983",
+      "name": "Nestea",
+      "company": "Nestl\u00e9",
+      "img": "nestea.png"
+    },
+    {
+      "id": "cf0e11e6-b0fe-4c81-9c84-0e3d146e083c",
+      "name": "Milo",
+      "company": "Nestl\u00e9",
+      "img": "milo.png"
+    },
+    {
+      "id": "f9577863-0fc5-4563-910a-6d582a43af14",
+      "name": "Pure Life",
+      "company": "Nestl\u00e9",
+      "img": "pure_life.png"
+    },
+    {
+      "id": "e8f14db3-734c-489a-8185-48c059a45bb6",
+      "name": "San Pellegrino",
+      "company": "Nestl\u00e9",
+      "img": "san_pellegrino.png"
+    },
+    {
+      "id": "089214d7-4ef1-4454-abe0-1c3eef87e064",
+      "name": "Buxton",
+      "company": "Nestl\u00e9",
+      "img": "buxton.png"
+    },
+    {
+      "id": "fca1ebc8-d125-4bc2-8d1c-140fc48f0bf4",
+      "name": "Perrier",
+      "company": "Nestl\u00e9",
+      "img": "perrier.png"
+    },
+    {
+      "id": "706c96b8-8cd8-4b88-ba95-615ba7a06c72",
+      "name": "Vittel",
+      "company": "Nestl\u00e9",
+      "img": "vittel.png"
+    },
+    {
+      "id": "7d6cbfff-51c9-4151-9aca-05459f0a9e35",
+      "name": "Evian",
+      "company": "Danone",
+      "img": "evian.png"
+    },
+    {
+      "id": "d9fb1658-0b1b-4dd9-84b8-fe1d9c447a80",
+      "name": "Actimel",
+      "company": "Danone",
+      "img": "actimel.png"
+    },
+    {
+      "id": "2f50bdaf-0728-447d-9d78-54116abceb59",
+      "name": "Activia",
+      "company": "Danone",
+      "img": "activia.png"
+    },
+    {
+      "id": "3994a5ea-d9d7-4d73-a495-30c81da66afa",
+      "name": "Alpro",
+      "company": "Danone",
+      "img": "alpro.png"
+    },
+    {
+      "id": "c98db463-145b-4ab3-bfb7-c9489890109b",
+      "name": "Oikos",
+      "company": "Danone",
+      "img": "oikos.png"
+    },
+    {
+      "id": "d7902e1d-450e-4c83-b23c-3e80cce9620a",
+      "name": "YoPRO",
+      "company": "Danone",
+      "img": "yopro.png"
+    },
+    {
+      "id": "87a51c70-1c87-4ec3-ae12-ab57299a6049",
+      "name": "Tang",
+      "company": "Mondelez",
+      "img": "tang.png"
+    },
+    {
+      "id": "ff6b747e-ba24-4834-ac0c-1107ca394e7d",
+      "name": "Cadbury",
+      "company": "Mondelez",
+      "img": "cadbury.png"
+    },
+    {
+      "id": "2604d753-d983-4d33-b80d-92e5e40cc360",
+      "name": "Oreo",
+      "company": "Mondelez",
+      "img": "oreo.png"
+    },
+    {
+      "id": "6a2c81e2-f5a0-49e3-8676-df7539baf10c",
+      "name": "Toblerone",
+      "company": "Mondelez",
+      "img": "toblerone.png"
+    },
+    {
+      "id": "915b2b5f-1ab8-459a-a456-7e6a5cf0dda1",
+      "name": "BelVita",
+      "company": "Mondelez",
+      "img": "belvita.png"
+    },
+    {
+      "id": "cc5db874-8351-46d1-9946-4bc6c4729b88",
+      "name": "LU",
+      "company": "Mondelez",
+      "img": "lu.png"
+    }
+  ],
+  "Confectionery & Snacks": [
+    {
+      "id": "2aa67371-2bd7-41d3-aa4f-8e1ac443fed7",
+      "name": "M&M\u2019s",
+      "company": "Mars",
+      "img": "mandms.png"
+    },
+    {
+      "id": "e717ce1f-7c90-4f76-96c9-77f7d2e0c61d",
+      "name": "Snickers",
+      "company": "Mars",
+      "img": "snickers.png"
+    },
+    {
+      "id": "c48f2c9b-3085-4ee8-ab6a-c335674fdad3",
+      "name": "Twix",
+      "company": "Mars",
+      "img": "twix.png"
+    },
+    {
+      "id": "97d15bca-aa22-4c6d-b5f9-4d207f933611",
+      "name": "Skittles",
+      "company": "Mars",
+      "img": "skittles.png"
+    },
+    {
+      "id": "7e1e010e-afb7-42f6-adf3-dfd6f6d2103d",
+      "name": "Orbit",
+      "company": "Mars",
+      "img": "orbit.png"
+    },
+    {
+      "id": "a1ede205-2cb3-4ee3-8d19-84853e16158c",
+      "name": "Extra",
+      "company": "Mars",
+      "img": "extra.png"
+    },
+    {
+      "id": "8cb438d3-b29c-4e18-a236-e6276c51a139",
+      "name": "Doublemint",
+      "company": "Mars",
+      "img": "doublemint.png"
+    },
+    {
+      "id": "9c2cb6a6-801a-4c06-bd92-976d42c49413",
+      "name": "5 Gum",
+      "company": "Mars",
+      "img": "5_gum.png"
+    },
+    {
+      "id": "b03bd6fa-0483-4cb2-a3ba-dccdd438e936",
+      "name": "Bounty",
+      "company": "Mars",
+      "img": "bounty.png"
+    },
+    {
+      "id": "a0601bf9-756d-4cbe-89b0-0da77931bdf7",
+      "name": "KitKat",
+      "company": "Nestl\u00e9",
+      "img": "kitkat.png"
+    },
+    {
+      "id": "0f9bc18d-f896-43d0-9c94-dcbdcb484408",
+      "name": "Smarties",
+      "company": "Nestl\u00e9",
+      "img": "smarties.png"
+    },
+    {
+      "id": "da93c33d-71a5-4bbb-b231-788fe60e9d03",
+      "name": "Aero",
+      "company": "Nestl\u00e9",
+      "img": "aero.png"
+    },
+    {
+      "id": "81e5f013-5444-4c43-98b8-2fbc26fb5991",
+      "name": "Milkybar",
+      "company": "Nestl\u00e9",
+      "img": "milkybar.png"
+    },
+    {
+      "id": "89729515-1aa5-4b44-87e7-796c0175af6e",
+      "name": "Chips Ahoy!",
+      "company": "Mondelez",
+      "img": "chips_ahoy!.png"
+    },
+    {
+      "id": "6ed367dd-5b13-4e28-83f8-e426bb2d4d84",
+      "name": "Trident",
+      "company": "Mondelez",
+      "img": "trident.png"
+    }
+  ],
+  "Household & Personal Care": [
+    {
+      "id": "df59e185-2249-4ba8-89d3-d201f6d4742a",
+      "name": "Head & Shoulders",
+      "company": "Procter & Gamble",
+      "img": "head_and_shoulders.png"
+    },
+    {
+      "id": "69f784ab-655b-4f66-93ed-be40886cdcfa",
+      "name": "Pantene",
+      "company": "Procter & Gamble",
+      "img": "pantene.png"
+    },
+    {
+      "id": "19695fc2-a46a-4de2-8799-30ccf17b7ded",
+      "name": "Oral-B",
+      "company": "Procter & Gamble",
+      "img": "oral-b.png"
+    },
+    {
+      "id": "7d50d0b5-9a1c-457b-bf44-c00b219c9448",
+      "name": "Gillette",
+      "company": "Procter & Gamble",
+      "img": "gillette.png"
+    },
+    {
+      "id": "f48265ea-3b22-4fcf-8ccd-ab21838beb87",
+      "name": "Ariel",
+      "company": "Procter & Gamble",
+      "img": "ariel.png"
+    },
+    {
+      "id": "3d081613-5a77-4fb1-90f7-5a01a023653f",
+      "name": "Tide",
+      "company": "Procter & Gamble",
+      "img": "tide.png"
+    },
+    {
+      "id": "814abe8a-2116-4c0f-8323-40c245387597",
+      "name": "Fairy",
+      "company": "Procter & Gamble",
+      "img": "fairy.png"
+    },
+    {
+      "id": "d81211f7-e682-4d7d-b27d-5f18e65aeaf5",
+      "name": "Downy",
+      "company": "Procter & Gamble",
+      "img": "downy.png"
+    },
+    {
+      "id": "ac8613d9-a86a-4235-9104-29c45e4b1238",
+      "name": "Always",
+      "company": "Procter & Gamble",
+      "img": "always.png"
+    },
+    {
+      "id": "fc8460ba-3a99-4a8d-8537-0652fdc788e5",
+      "name": "Olay",
+      "company": "Procter & Gamble",
+      "img": "olay.png"
+    },
+    {
+      "id": "02099000-ffa4-4571-8e13-9be60fc818c6",
+      "name": "SK-II",
+      "company": "Procter & Gamble",
+      "img": "sk-ii.png"
+    },
+    {
+      "id": "fc67a60c-80ec-4446-bc88-26cbbde1bdfd",
+      "name": "Dove",
+      "company": "Unilever",
+      "img": "dove.png"
+    },
+    {
+      "id": "567d185a-3535-423a-b274-60e11d1480e4",
+      "name": "Lux",
+      "company": "Unilever",
+      "img": "lux.png"
+    },
+    {
+      "id": "c726b2d1-8a81-47bf-a0a5-8e91a4206876",
+      "name": "Lifebuoy",
+      "company": "Unilever",
+      "img": "lifebuoy.png"
+    },
+    {
+      "id": "c6e8b55c-700a-4d60-8acd-48b4bd94b51e",
+      "name": "Pond\u2019s",
+      "company": "Unilever",
+      "img": "ponds.png"
+    },
+    {
+      "id": "e8419a1a-5524-4556-84c8-bc6581c8f84d",
+      "name": "Vaseline",
+      "company": "Unilever",
+      "img": "vaseline.png"
+    },
+    {
+      "id": "af0a4452-e60e-4967-90c9-0f801d9e27b6",
+      "name": "Sunsilk",
+      "company": "Unilever",
+      "img": "sunsilk.png"
+    },
+    {
+      "id": "e75ab9c3-acaa-4541-bd0c-bae4fa96e87d",
+      "name": "Clear",
+      "company": "Unilever",
+      "img": "clear.png"
+    },
+    {
+      "id": "45fa2cbd-5b96-4d7e-ac92-eaa0c2f0c426",
+      "name": "Rexona",
+      "company": "Unilever",
+      "img": "rexona.png"
+    },
+    {
+      "id": "606b0c84-2ea5-4326-a68e-8bebd87c754f",
+      "name": "AXE",
+      "company": "Unilever",
+      "img": "axe.png"
+    },
+    {
+      "id": "a2f0239a-3821-476f-8ab4-f523729822e9",
+      "name": "Surf Excel",
+      "company": "Unilever",
+      "img": "surf_excel.png"
+    },
+    {
+      "id": "a0d0e1cc-fd4c-4921-be47-8f88d1ede699",
+      "name": "Comfort",
+      "company": "Unilever",
+      "img": "comfort.png"
+    },
+    {
+      "id": "4e1adade-3953-4ca4-91ad-dd7c242b1eef",
+      "name": "Domestos",
+      "company": "Unilever",
+      "img": "domestos.png"
+    }
+  ]
+}

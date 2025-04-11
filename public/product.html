@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/@popmotion/popmotion/dist/popmotion.global.min.js"></script>
+    <style>
+      .fade-in {
+        animation: fadeIn 1s ease-in forwards;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .fade-up {
+        animation: fadeUp 1.2s ease-in forwards;
+      }
+
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <a
+          href="../index.html"
+          class="text-lg font-semibold text-yellow-500 hover:text-yellow-600 transition-all"
+          >&larr; Back to Home Page</a
+        >
+        <h2 class="text-xl font-bold text-gray-800 animate-pulse">
+          📊 Product Analytics
+        </h2>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-5xl mx-auto px-4 py-10">
+      <div
+        id="productInfo"
+        class="bg-white rounded-2xl shadow-lg p-8 fade-in mb-10 text-center md:text-left"
+      >
+        <!-- Populated by JS -->
+      </div>
+
+      <!-- Related Products Section -->
+      <div class="bg-white rounded-2xl shadow p-6 fade-up">
+        <h3 class="text-lg font-semibold mb-4 text-center">
+          🔗 Related Products
+        </h3>
+        <div
+          id="relatedProducts"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+        >
+          <!-- Related Product Cards will be generated here -->
+        </div>
+      </div>
+    </main>
+
+    <script src="../js/product.js"></script>
+  </body>
+</html>
